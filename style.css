@@ -112,6 +112,8 @@ height: 300px;
 #words{
     width: 400px;
     border-top-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px ;
 }
 
    #picture{
@@ -126,6 +128,7 @@ height: 300px;
    .layer{
        border-top-left-radius: 20px;
        border-top-right-radius: 20px;
+       border-bottom-right-radius: 0px;
        
       
      
@@ -141,6 +144,7 @@ height: 300px;
     text-align: center;
     display: block;
     margin-left: 0px;
+    
 }
  
 }
