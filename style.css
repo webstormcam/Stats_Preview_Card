@@ -23,18 +23,34 @@ height: 300px;
     
 }
 
-#words h1{
+#main{
+ margin-left: 20px;
+ padding: 20px;
+}
+
+#main h1{
     color:hsl(0, 0%, 100%)
+}
+
+#main p{
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 #picture{
     background-image: url('imgs/image-header-desktop.jpg');
-    width: 499px;
     background-position: center;
     background-size: cover;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 50%;
-   
-    
+   }
+
+   .layer {
+    background-color: rgba(132, 52, 182, 0.5);
+    width: 400px;
+   height: 300px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+ 
 }
+
