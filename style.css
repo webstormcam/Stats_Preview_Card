@@ -26,6 +26,7 @@ height: 300px;
 #main{
   margin-left: 22px;
  padding: 19px;
+ padding-bottom: 0px;
  
  
 
@@ -53,9 +54,9 @@ height: 300px;
 
 
 #info{
-    margin-left: 22px;
-   
+    margin-left: 20px;
     padding: 19px;
+    padding-top: 0px;
     display: flex;
 }
 
