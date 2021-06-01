@@ -111,19 +111,24 @@ height: 300px;
 
 #words{
     width: 400px;
+    border-top-left-radius: 0px;
 }
 
    #picture{
        background-image: url('imgs/image-header-mobile.jpg');
        border-bottom-right-radius: 0px;
        border-top-left-radius: 20px ;
+       border-top-right-radius: 20px;
        width: 400px;
 
    }
 
-   #layer{
-       border-top-left-radius: 25px;
-       border-bottom-right-radius: 0px;
+   .layer{
+       border-top-left-radius: 20px;
+       border-top-right-radius: 20px;
+       
+      
+     
    }
 
 
