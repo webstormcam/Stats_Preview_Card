@@ -101,15 +101,28 @@ height: 300px;
     #stat{
         display: flex; 
         flex-flow: column-reverse;
-       height: 600px;
+       margin-top: 450px;
+       max-width: 400px;
       justify-items: center;
       border-bottom-right-radius: 25px;
       border-bottom-left-radius: 25px;
      
 }
 
+#words{
+    width: 400px;
+}
+
    #picture{
        background-image: url('imgs/image-header-mobile.jpg');
+       border-bottom-right-radius: 0px;
+       border-top-left-radius: 20px ;
+       width: 400px;
+
+   }
+
+   #layer{
+       border-top-left-radius: 25px;
        border-bottom-right-radius: 0px;
    }
 
@@ -122,6 +135,7 @@ height: 300px;
 #info{
     text-align: center;
     display: block;
+    margin-left: 0px;
 }
  
 }
