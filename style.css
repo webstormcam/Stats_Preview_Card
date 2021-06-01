@@ -101,8 +101,28 @@ height: 300px;
     #stat{
         display: flex; 
         flex-flow: column-reverse;
-    }
+       height: 600px;
+      justify-items: center;
+      border-bottom-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+     
+}
 
+   #picture{
+       background-image: url('imgs/image-header-mobile.jpg');
+       border-bottom-right-radius: 0px;
+   }
+
+
+   #main{
+       text-align: center;
+       
+   }
+
+#info{
+    text-align: center;
+    display: block;
+}
  
 }
 
